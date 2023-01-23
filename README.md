@@ -68,7 +68,7 @@ From this project, I have learned:
 
 - [w3schools](https://www.w3schools.com/) - This helped me with the introduction into the rules of each language.
 - [mozilla developer](https://developer.mozilla.org/) - This helps me with questions.
-- [Youtube] This helps me with tutorials.
+- [Youtube](https://www.youtube.com/) - This helps me with tutorials.
 
 ## Author
 
