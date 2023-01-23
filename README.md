@@ -1,74 +1,78 @@
-# Getting Started with Create React App
+# My Personal Portfolio One Page Responsive Website Project in ReactJs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I am creating a portfolio website using React, Framer Motion, the React Slider library, simple CSS, and a contact page using emailjs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The website will feature subtle animations and transitions using Framer Motion, and the React Slider library will allow me to display a range of my work in a modern way. Simple CSS will be used to add custom styles and create a cohesive design throughout the website.
 
-### `npm test`
+The contact page, powered by emailJs, will make it easy for potential clients or employers to contact me directly through the website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is my personal portfolio website, showcasing my skills and experience as a developer. Here, you will find a variety of projects I've worked on, as well as information about my background and qualifications. Whether you're looking to hire me for a project or simply want to learn more about my work, this website is the perfect place to start. You can see the live version of my site by visiting the link. So take a look around, and don't hesitate to contact me if you have any questions or want to connect.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I will also be adding a dynamic dashboard to the website, so visitors can see it in action and get a better understanding of my capabilities.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### The challenge
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Build out the project to the designs From portfolio orignal site Inspiration from youtube and for practice in Recat project.
 
-### `npm run eject`
+### Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Comming Soon...
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- - Solution URL: [Solution Link](https://github.com/iamhuraira/Portfolio-live)
+- Live Site URL: [Live Site ](https://iamhuraira.netlify.app/) -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## My process
+  1. Developing the frontend of the website using ReactJS, Framer motion and Tailwind CSS for the dynamic and visually pleasing user interface.
+  2. Continuously testing and optimizing the website for a smooth user experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Built with
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- HTML5
+- CSS3
+- Flexbox
+- ReactJs
+- Framer Motion
+- React Icons
+- React Slider
+- JSX
 
 
 
-<!-- Deployed on Netlify  -->
+### What I learned
+
+From this project, I have learned:
+ 1. Techniques for building a dynamic and visually pleasing user interface with ReactJS, Framer motion and Tailwind CSS.
+ 2. How to integrate React Slider in React website.
+ 3. How to use Framer Motion to make animation in react app.
+ 4. Implementation of routing functionality (One Page) using React Router Dom.
+ 5. Best practices for testing and optimizing the website for a smooth user experience.
+ 6. How to work with multiple technologies and integrating them to build a full-fledged web application.
+
+### Useful resources
+
+- [w3schools](https://www.w3schools.com/) - This helped me with the introduction into the rules of each language.
+- [mozilla developer](https://developer.mozilla.org/) - This helps me with questions.
+- [Youtube] This helps me with tutorials.
+
+## Author
+
+<!-- - Frontend Mentor - [@Huraira429](https://www.frontendmentor.io/profile/Huraira429) -->
+- GitHub - [@iamhuraira](https://github.com/iamhuraira)
+- Linkedin - [@iamhuraira](https://www.linkedin.com/in/iamhuraira)
+<!-- - Twitter - [@i_am_huraira_](https://twitter.com/i_am_huraira_) -->
