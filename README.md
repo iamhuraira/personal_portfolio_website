@@ -1,4 +1,4 @@
-# My Personal Portfolio One Page Responsive Website Project in ReactJs
+# My Personal Portfolio Website Project in ReactJs
 
 
 ## Table of contents
@@ -20,7 +20,7 @@ The website will feature subtle animations and transitions using Framer Motion, 
 
 The contact page, powered by emailJs, will make it easy for potential clients or employers to contact me directly through the website.
 
-This is my personal portfolio website, showcasing my skills and experience as a developer. Here, you will find a variety of projects I've worked on, as well as information about my background and qualifications. Whether you're looking to hire me for a project or simply want to learn more about my work, this website is the perfect place to start. You can see the live version of my site by visiting the link. So take a look around, and don't hesitate to contact me if you have any questions or want to connect.
+This is my portfolio website, showcasing my skills and experience as a developer. Here, you will find a variety of projects I've worked on, as well as information about my background and qualifications. Whether you're looking to hire me for a project or simply want to learn more about my work, this website is the perfect place to start. You can see the live version of my site by visiting the link. So take a look around, and don't hesitate to contact me if you have any questions or want to connect.
 
 
 I will also be adding a dynamic dashboard to the website, so visitors can see it in action and get a better understanding of my capabilities.
@@ -66,7 +66,7 @@ From this project, I have learned:
 
 ### Useful resources
 
-- [w3schools](https://www.w3schools.com/) - This helped me with the introduction into the rules of each language.
+- [w3schools](https://www.w3schools.com/) - This helped me with the introduction to the rules of each language.
 - [mozilla developer](https://developer.mozilla.org/) - This helps me with questions.
 - [Youtube](https://www.youtube.com/) - This helps me with tutorials.
 
