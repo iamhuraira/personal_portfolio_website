@@ -1,0 +1,159 @@
+.works {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 70vh;
+    margin-top: 2rem;
+}
+
+.w-right {
+    position: relative;
+}
+
+.work1 {
+    width: 68% !important;
+}
+
+.w-awesome {
+    gap: 0.3rem;
+}
+
+.w-mainCircle {
+    left: -2rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+}
+
+.w-mainCircle>* {
+    position: absolute;
+
+}
+
+.w-mainCircle> :nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+}
+
+.w-mainCircle> :nth-child(2) {
+    top: 5rem;
+    left: -3rem;
+}
+
+.w-mainCircle> :nth-child(3) {
+    top: 5rem;
+    left: 6rem;
+}
+
+.w-mainCircle> :nth-child(4) {
+    top: 5rem;
+    left: 14rem;
+}
+
+.w-mainCircle> :nth-child(5) {
+    top: 14rem;
+    left: 6rem;
+}
+
+.w-secCircle {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+.w-secCircle>a>img {
+    transform: scale(0.6);
+}
+
+.w-backCircle {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+
+}
+
+.blueCircle {
+    background: #1949BB;
+    top: 01rem;
+    left: 5.8rem;
+}
+
+.yellowCircle {
+    background: #F5C32C;
+    top: 8rem;
+    left: 5.8rem;
+}
+
+@media screen and (max-width:480px) {
+    .works {
+        height: 46rem;
+        padding: 0;
+        flex-direction: column;
+        transform: scale(0.9);
+
+    }
+
+    .w-awesome>:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .w-awesome>:nth-child(2) {
+        font-size: 2.4rem;
+    }
+
+    .work1 {
+        width: 100% !important;
+    }
+
+    .w-right {
+        margin-top: 2rem;
+        transform: scale(0.75);
+        left: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .experience .e-my {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width : 480px) and (max-width: 800px) {
+    .works {
+        height: 46rem;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .w-awesome>:nth-child(1) {
+        font-size: 2.5rem;
+    }
+
+    .w-awesome>:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .work1 {
+        width: 100% !important;
+    }
+
+    .w-right {
+        margin-top: 4rem;
+        transform: scale(1);
+        left: 8.6rem;
+    }
+}

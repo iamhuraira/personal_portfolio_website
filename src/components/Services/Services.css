@@ -1,0 +1,154 @@
+.services {
+    position: relative;
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 13rem;
+    margin-top: 9rem;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awesome> :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome> :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome> :nth-child(3) {
+    color: var(--gray);
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 60%;
+}
+
+.s-button {
+    width: 10rem;
+    margin-top: 1rem;
+}
+
+.s-button>a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.cards {
+    position: relative;
+}
+
+.cards>* {
+    position: absolute;
+}
+
+.s-blur2 {
+    left: 53rem;
+    top: 56rem;
+}
+
+.s-blur1 {
+    left: -18rem;
+    top: 13rem;
+}
+
+@media screen and (max-width:480px) {
+    .services {
+        position: relative;
+        flex-direction: column;
+        margin-top: 0;
+        padding: 0;
+        gap: 5rem;
+        height: 70rem;
+
+
+    }
+
+    .s-button {
+        margin-top: 2rem;
+    }
+
+    .awesome> :nth-child(1) {
+       font-size: 2.1rem;
+    }
+
+    .awesome> :nth-child(2) {
+       font-size: 2.1rem;
+    }
+
+    .awesome> :nth-child(3) {
+        width: 100%;
+    }
+
+    .cards>* {
+        position: static;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 19rem;
+    }
+
+    .div2 {
+        order: 1;
+    }
+}
+@media screen and (min-width : 480px) and (max-width: 800px) {
+    .services {
+            position: relative;
+            flex-direction: column;
+            margin-top: 2rem;
+            padding: 0;
+            gap: 4rem;
+            height: 49rem;
+    
+    
+        }
+    
+        .s-button {
+            margin-top: 2rem;
+        }
+        .awesome{
+                justify-content: center;
+                    align-items: center;
+                    text-align: center;
+        }
+    
+        .awesome> :nth-child(1) {
+            font-size: 2.5rem;
+        }
+    
+        .awesome> :nth-child(2) {
+            font-size: 2.5rem;
+        }
+    
+        .awesome> :nth-child(3) {
+            width: 100%;
+        }
+    
+        .cards>* {
+            position: static;
+        }
+    
+        .cards {
+            display: flex;
+            flex-direction:row;
+            flex-flow: wrap;
+            justify-content: center;
+            gap: 19rem;
+            left: -7rem
+        }
+    
+        .div2 {
+            order: 1;
+        }
+}
