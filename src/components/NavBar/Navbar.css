@@ -49,6 +49,26 @@
     color: var(--orange);
 }
 
+
+@media screen and (max-width : 320px) {
+    .n-list {
+        display: none;
+    }
+
+    .n-right {
+        justify-content: flex-end;
+    }
+
+    .n-name {
+        font-size: 2.5rem;
+        font-weight: bold;
+
+    }
+}
+
+
+
+/* 
 @media screen and (max-width : 480px) {
     .n-list {
         display: none;
@@ -73,4 +93,4 @@
     .n-right {
         justify-content: flex-end;
     }
-}
+} */

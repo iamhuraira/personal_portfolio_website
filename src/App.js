@@ -17,15 +17,15 @@ function App() {
         <div className = "App" >
 
             <Navbar/>
-            <Intro />
+            {/* <Intro />
             <Services />
             <Experience />
             <Work />
             <PortfolioUpdated />
-            {/* <Portfolio /> */}
+           <Portfolio /> 
             <Testimonials />
             <Contact />
-            <Footer />
+            <Footer /> */}
         </div>
     );
 }
