@@ -12,7 +12,7 @@
 }
 
 .App {
-    padding: 0.5rem 3.5rem;
+    padding: 30px 50px;
 
     overflow: hidden;
     color: var(--black);
@@ -55,10 +55,10 @@
     }
 }
 
-@media screen and (min-width : 780px) {
+/* @media screen and (min-width : 780px) {
     .App {
         padding: 1.5rem 2.5rem;
 
 
     }
-}
+} */

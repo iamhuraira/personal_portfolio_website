@@ -9,11 +9,11 @@
     flex: 1;
     align-self: center;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .n-name {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
 
 }
@@ -38,19 +38,22 @@
 
 .n-list>ul {
     display: flex;
-    gap: 2rem;
-    margin-right: 4rem;
+    gap: 4rem;
+    margin-right: 8rem;
     list-style: none;
     cursor: pointer;
 }
 
-.n-list>ul>li:hover {
+.n-list ul li:hover {
     cursor: pointer;
     color: var(--orange);
+    
+    
 }
 
 
-@media screen and (max-width : 320px) {
+
+@media screen and (max-width : 815px) {
     .n-list {
         display: none;
     }
@@ -65,6 +68,23 @@
 
     }
 }
+
+
+@media screen and (min-width : 815px)  and (max-width : 980px) {
+    .n-left {
+
+        gap: 2rem;
+    }
+
+    .n-list>ul {
+        gap: 2rem;
+        margin-right: 4rem;
+       
+    }
+}
+
+
+
 
 
 
