@@ -3,11 +3,12 @@ html {
   /* 62.5% --> 10Px --> 1rem */
 }
 
+
 * {
 
   font-family: Gumela;
 
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
 body {
