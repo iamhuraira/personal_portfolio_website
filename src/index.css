@@ -10,6 +10,12 @@ html {
 
   /* font-size: 2rem; */
 }
+@font-face {
+  font-family: "Gumela";
+  src: url("../src/img/font/Gumela.ttf");
+  /* font-weight: lighter;
+  font-style: normal; */
+}
 
 body {
   margin: 0 auto;
