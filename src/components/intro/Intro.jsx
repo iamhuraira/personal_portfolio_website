@@ -2,7 +2,6 @@ import React from 'react'
 import "./intro.css";
 import Github from '../../img/github.png';
 import Linkedin from '../../img/linkedin.png';
-import Instagram from '../../img/instagram.png';
 import vector1 from '../../img/Vector1.png';
 import vector2 from '../../img/Vector2.png';
 import boy from '../../img/boy1.png';
@@ -22,12 +21,12 @@ const Intro = () => {
                   <span>Abu Huraira</span>
                   <span>MERN Stack Developer with high level of experience in web development and producing the Quality work</span>
               </div>
-              <a href='https://www.linkedin.com/in/iamhuraira/' target='_blank'>  
+              <a href='https://www.linkedin.com/in/iamhuraira/' target='_blank' rel="noreferrer">  
               <button className=" button i-button">Hire Me</button>
               </a>
               <div className="i-icons">
-                  <a href='https://github.com/iamhuraira' target='_blank'><img src={Github} alt="Github" /></a>
-                  <a href='https://www.linkedin.com/in/iamhuraira/' target='_blank'><img src={Linkedin} alt="Linkedin" /> </a>
+                  <a href='https://github.com/iamhuraira' target='_blank' rel="noreferrer"><img src={Github} alt="Github" /></a>
+                  <a href='https://www.linkedin.com/in/iamhuraira/' target='_blank' rel="noreferrer"><img src={Linkedin} alt="Linkedin" /> </a>
                   {/* <a><img src={Instagram} alt="Instagram" /></a> */}
               </div>
          </div>
