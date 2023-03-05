@@ -1,6 +1,31 @@
 html {
   font-size: 62.5%;
   /* 62.5% --> 10Px --> 1rem */
+
+
+
+  /* @media screen  and (max-width: 990px) {
+    font-size: 50%;
+  } */
+
+
+}
+
+@media screen and (max-width: 1440px) {
+ html{
+  font-size: 50%;
+ }
+}
+@media screen and (max-width: 1040px) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 37.5%;
+  }
 }
 
 
@@ -10,6 +35,7 @@ html {
 
   /* font-size: 2rem; */
 }
+
 @font-face {
   font-family: "Gumela";
   src: url("../src/img/font/Gumela.ttf");
@@ -18,21 +44,19 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
+
   /* font-family: Gumela, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-    font-family: Gumela;
+  font-family: Gumela;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace; */
-}
+    monospace; 
+} */
 
 .slick-list,
 .slick-slider,
@@ -54,6 +78,7 @@ code {
   opacity: 0.7;
   pointer-events: none;
 }
+
 /* 
 @media screen and (min-width: 320) {
   body {
