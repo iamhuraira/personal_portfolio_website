@@ -35,8 +35,8 @@ const Intro = () => {
               <img src={vector2} alt="" />
               <img src={boy} alt="" />
               <motion.img
-                  initial={{ left: '-36%' }}
-                  whileInView={{ left: '-20%'}}
+                  initial={{ left: '-400px' }}
+                  whileInView={{ left: '-200px'}}
                   transition={transition}
                   src={glassesimoji} alt="" />
               <motion.div

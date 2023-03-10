@@ -59,6 +59,8 @@
     .n-list {
         display: none;
     }
+        .n-wrapper {
+            height: 4vh;}
 
     .n-right {
         justify-content: flex-end;
